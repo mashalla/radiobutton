@@ -132,6 +132,7 @@ var AccessibleRadiobutton = new Class({
 		if(button.get('checked')) {
 			newButton.style.backgroundPosition = "0 -" + this.options.buttonHeight * 0 + "px";
 			button.set('checked', false);
+			newButton.setProperty('aria-checked', false);
 		} else {
 			newButton.style.backgroundPosition = "0 -" + this.options.buttonHeight * 2 + "px";
 			button.set('checked', true);
