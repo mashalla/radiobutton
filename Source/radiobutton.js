@@ -1,15 +1,16 @@
 /*
- ---
- script: radiobutton.js
- description: ---
- license: MIT-style license
- authors:
- - Christian Merz
- requires:
- - core:1.4/Element.Event
- provides: [dialogCME]
- ...
- */
+---
+
+name: Accessible Radiobuttons
+
+license: MIT-style license.
+
+authors: Christian Merz
+
+provides: [Radiobutton]
+
+...
+*/
 
 var AccessibleRadiobutton = new Class({
 	Implements : [Options, Events],
